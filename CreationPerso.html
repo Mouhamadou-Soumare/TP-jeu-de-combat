@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+
+<title>Jeux de combat</title>
+
+<head>
+    <meta charset="utf-8">
+    <title>SKN Sports</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+<div class="container liste">
+    <div class="liste-image">
+        <img src="views/charac1.png" alt="sports.png" />
+    </div>
+    <div class="image">
+        <img src="views/Couverture.jpg" alt="sports.png" />
+    </div>
+
+    <form method="post">
+        <h3>Création de personnage</h3>
+        <div class="grid-container">
+            <div>
+
+            <div>
+                <span class="choix">Nom</span>      
+                <div class="dropdown">
+                    <input type="text"  name="one" class="dropdown-select">
+                        
+                    
+                </div>  
+            </div>
+            <img class="vitf" style="display:none" src="views/guerrier.png">
+            <img class="vitf2" style="display:none" src="views/mage.png">
+
+            <div>
+                <span class="choix">Classe</span>      
+                <div class="dropdown" >
+                    <select name="one" class="dropdown-select">
+                        <option value="">Guerrier</option>
+                        <option value="">Magicien</option>
+                    </select>
+                </div>
+            </div>         
+            <div class="ajout">
+                 <button type="submit" class="additem" name='creer"'>Validation </button>
+            </div>
+            </div>
+            
+        </div>
+    </form>  
+</div>
+
+</body>
